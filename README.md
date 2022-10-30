@@ -40,3 +40,15 @@ In this tutorial, we will be exploring how to match a URL using regex. I will in
 - `\w` matches any single word character such as "a-z", "A-Z", "0-9", and "\_".
 - `\/` matches a single character of `/`.
 - `\.` matches a single character of `.`.
+
+### Grouping and Capturing
+
+- A capture group treats everything within the parentheses as a single unit.
+- There are 4 instances of capture groups within the url regex expression.
+
+1. `^(https?:\/\/)?`
+2. `([\da-z\.-]+)\.`
+3. `([a-z\.]{2,6})`
+4. `([\/\w \.-]*)*`
+
+- For instance #1, `http` will be included in this group always when searching.
