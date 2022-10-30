@@ -32,3 +32,11 @@ In this tutorial, we will be exploring how to match a URL using regex. I will in
 - The `?` matches zero or one time(s). The first capture group: `(https?:\/\/)?` will accept zero or one single instance of "s".
 - The `{}` determines how many instances of the preceding group or character occur. `{2,6}` within the last capture group:
   `([a-z\.]{2,6})` searches for 2 to 6 instances of a character based off the criteria within the square brackets.
+
+### Character Classes
+
+- A character class defines a set of characters that can occur within the string.
+- `\d` matches a single character that is a digit 0-9.
+- `\w` matches any single word character such as "a-z", "A-Z", "0-9", and "\_".
+- `\/` matches a single character of `/`.
+- `\.` matches a single character of `.`.
