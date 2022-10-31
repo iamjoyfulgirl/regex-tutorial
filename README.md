@@ -52,3 +52,9 @@ In this tutorial, we will be exploring how to match a URL using regex. I will in
 4. `([\/\w \.-]*)*`
 
 - For instance #1, `http` will be included in this group always when searching.
+
+### Bracket Expressions
+
+- Bracket Expressions can handle many "or" situations.
+
+- In the above capture groups, group 2 would allow the search of a string with any of the possible characters within it, whether it be "a", "b", "c", etc.
