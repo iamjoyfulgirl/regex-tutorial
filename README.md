@@ -58,3 +58,8 @@ In this tutorial, we will be exploring how to match a URL using regex. I will in
 - Bracket Expressions can handle many "or" situations.
 
 - In the above capture groups, group 2 would allow the search of a string with any of the possible characters within it, whether it be "a", "b", "c", etc.
+
+## Author
+
+- Thanks for reading! There are many uses for regex and this tutorial only touches on one example. I encourage you to explore regex more. You can use https://regex101.com to see in real time what regex does and is a great site for troubleshooting while using regex.
+- If you have any further questions, contact me here: [GitHub](https://github.com/iamjoyfulgirl)
