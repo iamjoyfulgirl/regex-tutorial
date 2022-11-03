@@ -1,4 +1,4 @@
-# Regex Tutorial
+# Regex Tutorial - How To Use Regex to Validate a URL
 
 ## What is Regular Expression or "regex"?
 
